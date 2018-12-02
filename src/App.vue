@@ -8,7 +8,7 @@
         <v-divider></v-divider>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar flat class="primary" dark>
+    <v-toolbar fixed flat class="primary" dark>
       <v-toolbar-side-icon class="hidden-sm-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title>
         <router-link id="logo" to="/"> <span>MP</span>hoto<span>V</span>ideo</router-link>
