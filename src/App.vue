@@ -13,6 +13,11 @@
       <v-toolbar-title>
         <router-link id="logo" to="/"> <span>MP</span>hoto<span>V</span>ideo</router-link>
       </v-toolbar-title>
+      <v-divider 
+      class="mx-3 hidden-xs-only"
+      inset
+      vertical
+    ></v-divider>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn class="toolbar" flat to="/about">about</v-btn>
@@ -81,6 +86,7 @@
   @import url('https://fonts.googleapis.com/css?family=Nunito:200,400,700|Sacramento');
   #app {
     font-family: 'Nunito', sans-serif;
+    background-color: #e8edf3;
   }
   .toolbar {
     color: #e8edf3;
