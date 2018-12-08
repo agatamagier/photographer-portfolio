@@ -5,6 +5,7 @@ import Offer from './components/Offer'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Gallery from './components/Gallery.vue'
+import Card from './components/Card.vue'
 
 
 Vue.use(Router)
@@ -37,6 +38,11 @@ export default new Router({
       path: '/gallery',
       name: 'Gallery',
       component: Gallery
+    },
+    {
+      path: '/card',
+      name: 'Card',
+      component: Card
     }
   ]
 })

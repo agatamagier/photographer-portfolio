@@ -9,7 +9,7 @@
                 </v-flex>
                 <v-flex xs12>
                     <v-container grid-list-xl>
-                        <v-layout row wrap align-center>
+                        <v-layout row wrap >
                             <v-flex xs12 md4>
                                 <v-card hover color="accent lighten-4">
                                     <v-card-text class="text-xs-center">
@@ -40,8 +40,8 @@
                                     </v-card-text>
                                 </v-card>
                             </v-flex>
-                            <v-flex xs12 md4>
-                                <v-card hover color="accent lighten-4">
+                            <v-flex xs12 md4 >
+                                <v-card hover color="accent lighten-4" >
                                     <v-card-text class="text-xs-center">
                                         <v-icon x-large class="accent--text mt-5">grade</v-icon>
                                     </v-card-text>

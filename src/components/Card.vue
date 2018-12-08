@@ -1,13 +1,18 @@
 <template>
     <v-content>
             <v-layout column wrap align-center class="my-5">
-                <v-flex xs12 sm4 class="my-3">
+                <v-flex xs12 sm4 class="my-3 card">
                     <div class="text-xs-center">
-                        <h1 class="headline px-3 my-4">Testimonials</h1>
+                       card
                     </div>
                 </v-flex>
-           </v-layout>   
+            </v-layout>
     </v-content>
 </template>
-
+<style scoped>
+   .card {
+       background-color: orangered;
+       height: 40rem;
+   }
+</style>
 
