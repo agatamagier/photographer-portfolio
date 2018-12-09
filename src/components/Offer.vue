@@ -1,16 +1,16 @@
 <template>
     <v-content>
         <section>
-            <v-layout column wrap align-center class="my-5 mb-5">
+            <v-layout column wrap align-center class="my-5 ">
                 <v-flex xs12 sm4 class="mt-5">
                     <div class="text-xs-center">
                         <h1 class="headline px-3 my-3">My offer packages</h1>
                     </div>
                 </v-flex>
-                <v-flex class="container ">
+                <v-flex class="container mb-4 ">
                     <v-container grid-list-xl>
                         <v-layout row wrap justify-center>
-                            <v-flex xs12 md3 offset-(size)(0-12)="md1">
+                            <v-flex xs12 sm8 md5 lg3 offset-(size)(0-12)="md1" >
                                 <div flat class="card">
                                     <div class="card__side card__side--front">
                                         <div class="card__picture card__picture--1">
@@ -21,13 +21,13 @@
                                         </h4>
                                         <div class="card__details">
                                             <ul>
-                                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                                                <li>Duis autem vel eum iriure dolor in hendrerit.</li>
-                                                <li>Lorem ipsum dolor sit.</li>
-                                                <li>Defacto lingo est igpay atinlay.</li>
-                                                <li>Quote meon an estimate et non interruptus stadium. </li>
-                                                <li>Glorious baklava ex librus hup hey ad infinitum. </li>
-                                                <li>Epsum factorial non deposi</li>
+                                                <li>Lorem consectetuer adipiscing eum iriure elit.</li>
+                                                <li>Duis autem iriure dolor in hendrerit.</li>
+                                                <li>Lorem ipsum dolor sit baklava ex tempus fugiinfinitum.</li>
+                                                <li>Defacto lingo est igpay atinlay tempus fugi.</li>
+                                                <li>Quote  non interruptus stadium. </li>
+                                                <li>Glorious librus hup hey ad infinitum. </li>
+                                                <li>Epsum factorial non deposi baklava ex tempus fugiinfinitum.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -36,12 +36,13 @@
                                             <div class="card__pricebox">
                                                 <p class="card__only">Only</p>
                                                 <p class="card__price">&#8356;1,850</p>
+                                                 <v-btn raised large color="#e6cf8b" router to="/contact" class="btn mt-4">Book now</v-btn>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </v-flex>
-                            <v-flex xs12 md3 offset-(size)(0-12)="md1">
+                            <v-flex xs12  sm8 md5 lg3 offset-(size)(0-12)="md1">
                                 <div flat class="card">
                                     <div class="card__side card__side--front">
                                         <div class="card__picture card__picture--2">
@@ -52,11 +53,11 @@
                                         </h4>
                                         <div class="card__details">
                                             <ul>
-                                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                                <li>Lorem eum iriure ipsum dolor sit amet.</li>
                                                 <li>Duis autem vel eum iriure dolor in hendrerit.</li>
-                                                <li>Defacto lingo est igpay atinlay.</li>
-                                                <li>Quote meon an estimate et non interruptus stadium. </li>
-                                                <li>Glorious baklava ex librus hup hey ad infinitum. </li>
+                                                <li>Defacto lingo est igpay atinlay baklava ex tempus fugiinfinitum.</li>
+                                                <li>Quote meon an estimate et stadium. </li>
+                                                <li>Glorious baklava ex tempus fugiinfinitum. </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -65,12 +66,13 @@
                                             <div class="card__pricebox">
                                                 <p class="card__only">Only</p>
                                                 <p class="card__price">&#8356;1,450</p>
+                                                 <v-btn raised large color="#e6cf8b" router to="/contact" class="btn mt-4">Book now</v-btn>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </v-flex>
-                            <v-flex xs12 md3 offset-(size)(0-12)="md1">
+                            <v-flex xs12 sm8 md5 lg3 offset-(size)(0-12)="md1" >
                                 <div flat class="card">
                                     <div class="card__side card__side--front">
                                         <div class="card__picture card__picture--3">
@@ -81,10 +83,10 @@
                                         </h4>
                                         <div class="card__details">
                                             <ul>
-                                                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                                <li>Lorem ipsum dolor eum iriure sit amet, elit.</li>
                                                 <li>Duis autem vel eum iriure dolor in hendrerit.</li>
-                                                <li>Quote meon an estimate et non interruptus stadium. </li>
-                                                <li>Glorious baklava ex librus hup hey ad infinitum. </li>
+                                                <li>Quote meon tempus fugi an estimate et. </li>
+                                                <li>Glorious baklava ex librus hup baklava ex tempus fugiinfinitum. </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -93,12 +95,13 @@
                                             <div class="card__pricebox">
                                                 <p class="card__only">Only</p>
                                                 <p class="card__price">&#8356;1,250</p>
+                                                 <v-btn raised large color="#e6cf8b" router to="/contact" class="btn mt-4">Book now</v-btn>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </v-flex>
-                            <v-flex xs12 md3 offset-(size)(0-12)="md1">
+                            <v-flex xs12 sm8 md5 lg3 offset-(size)(0-12)="md1" >
                                 <div flat class="card">
                                     <div class="card__side card__side--front">
                                         <div class="card__picture card__picture--4">
@@ -109,11 +112,11 @@
                                         </h4>
                                         <div class="card__details">
                                             <ul>
-                                                <li>Duis autem vel eum iriure dolor in hendrerit.</li>
-                                                <li>Lorem ipsum dolor sit.</li>
+                                                <li>Duis autem vel eum iriure dolor.</li>
+                                                <li>Lorem ipsum tempus fugi dolor sit.</li>
                                                 <li>Defacto lingo est igpay atinlay.</li>
-                                                <li>Sic tempus fugit esperanto hiccup estrogen</li>
-                                                <li>Epsum factorial non deposi</li>
+                                                <li>Sic tempus fugit esperanto.</li>
+                                                <li>Epsum factorial non deposi baklava ex tempus fugiinfinitum.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -122,7 +125,7 @@
                                             <div class="card__pricebox">
                                                 <p class="card__only">From</p>
                                                 <p class="card__price">&#8356;950</p>
-                                                <router-link to="/contact" class="btn">Book now!</router-link>
+                                                <v-btn raised large color="#e6cf8b" router to="/contact" class="btn mt-4">Book now</v-btn>
                                             </div>
                                         </div>
                                     </div>
@@ -159,17 +162,24 @@
         font-weight: lighter;
         line-height: 1.2em !important;
     }
+    .btn {
+        background-color: #e6cf8b;
+        color: #22264b;
+        text-transform: none;
+        padding: 1em 2em;
+        font-size: 3em;
+    }
     .card {
         perspective: 1500px;
         -moz-perspective: 1500px;
         position: relative;
-        height: 42em;
+        height: 44em;
       
         &__side {
             border-bottom: #e6cf8b solid 3px;
             box-shadow: 0 1.5rem 4rem rgba(black, .30);
             border-radius: 3px;
-            height: 42em;
+            height: 44em;
             transition: all 1s ease;
             position: absolute;
             top: 0;
@@ -242,6 +252,25 @@
                     }
                 }
             }
+        }
+        &__info {
+             font-family: 'Sacramento', cursive !important;
+            color: #e6cf8b;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        &__pricebox {
+            text-align: center;
+            margin-bottom: 6em;
+        }
+        &__only {
+            font-size: 2em;
+        }
+        &__price {
+            font-size: 4em;
+            font-weight: lighter;
         }
     }
 </style>
