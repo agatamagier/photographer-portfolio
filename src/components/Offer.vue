@@ -6,11 +6,12 @@
                     <div class="text-xs-center">
                         <h1 class="headline px-3 my-3">My offer packages</h1>
                     </div>
+                     <v-divider class="primary mx-5 my-5"></v-divider>
                 </v-flex>
                 <v-flex class="container mb-4 ">
-                    <v-container grid-list-xl>
+                    <v-container fluid grid-list-xl>
                         <v-layout row wrap justify-center>
-                            <v-flex xs12 sm8 md5 lg3 offset-(size)(0-12)="md1" >
+                            <v-flex class="mb-5 pb-5" xs12 sm8 md5 lg3 offset-(size)(0-12)="md1" >
                                 <div flat class="card">
                                     <div class="card__side card__side--front">
                                         <div class="card__picture card__picture--1">
@@ -236,6 +237,7 @@
         &__heading-span {
             background-image: linear-gradient(to right bottom, rgba(#fcf6e1, .75), rgba(#e6cf8b, .75));
             padding: 15px 30px;
+            color: #22264b;
         }
         &__details {
             padding: 2em 0;

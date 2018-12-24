@@ -82,11 +82,12 @@
   }
 </script>
 
-<style scoped>
+<style >
   @import url('https://fonts.googleapis.com/css?family=Nunito:200,400,700|Sacramento');
   #app {
     font-family: 'Nunito', sans-serif;
     background-color: #e8edf3;
+    height: auto;
   }
   .toolbar {
     color: #e8edf3;
