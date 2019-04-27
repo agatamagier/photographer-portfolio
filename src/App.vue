@@ -2,7 +2,7 @@
   <v-app id="app">
     <v-navigation-drawer v-model="drawer" class="secondary" temporary fixed>
       <v-list>
-        <v-list-tile v-for="menuItem in menuItems" style="cursor: pointer">
+         <v-list-tile v-for="(menuItem, index) in menuItems" style="cursor: pointer" :key="index">
           <v-list-tile-title :to="menuItem.link" class="drawer_item"> {{menuItem.title}} </v-list-tile-title>
         </v-list-tile>
         <v-divider></v-divider>
@@ -89,6 +89,7 @@
     background-color: #e8edf3;
     height: auto;
   }
+  
   .toolbar {
     color: #e8edf3;
   }

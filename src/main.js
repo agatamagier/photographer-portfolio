@@ -4,9 +4,12 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import Vuetify from 'vuetify'
+import VueLazyLoad from 'vue-lazyload'
+import lightbox from 'vlightbox'
 
 Vue.config.productionTip = false
-
+Vue.use(lightbox)
+Vue.use(VueLazyLoad)
 Vue.use(Vuetify, {
   theme: {
     primary: '#22264b',

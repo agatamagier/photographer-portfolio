@@ -69,17 +69,16 @@
     </section>
     <v-parallax :src="require('@/assets/img/flowers2.jpg')" height="650">
     </v-parallax>
-    </section>
   </v-content>
   <!-- <v-content>
-                  <section>
-                      <v-parallax height="500" :src="require('@/assets/img/confetti.jpg')">
-                          <v-layout column align-center justify-center class="my-5 py-5">
-                              <h1>home</h1>
-                          </v-layout>
-                      </v-parallax>
-                  </section>
-              </v-content> -->
+                    <section>
+                        <v-parallax height="500" :src="require('@/assets/img/confetti.jpg')">
+                            <v-layout column align-center justify-center class="my-5 py-5">
+                                <h1>home</h1>
+                            </v-layout>
+                        </v-parallax>
+                    </section>
+                </v-content> -->
 </template>
 <style lang="scss" scoped>
   #logo {

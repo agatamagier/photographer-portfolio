@@ -11,13 +11,13 @@
                 <v-flex >
                     <v-container grid-list-xl>
                         <v-layout column align-center  >
-                            <v-flex xs12 md8 offset-(size)(0-12)="md2">
+                            <v-flex xs12 md8 offset-(size)(0-12)="md2" class="aboutme-container">
                                 <div class="aboutme">
                                     <img class="aboutme__avatar" src="..\assets\img\photogapher.jpg">
                                     <p class="aboutme__text primary--text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, impedit nulla. Assumenda aperiam maiores fugiat soluta veniam, nesciunt ex eligendi velit sequi quod, incidunt amet doloribus in pariatur quasi dolorem quae
                                         nulla cumque temporibus deleniti similique. Quidem rerum exercitationem soluta, aspernatur perferendis libero delectus rem. Fuga nisi ex fugiat ducimus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem,
-                                        impedit nulla. Assumenda aperiam maiores fugiat soluta veniam, nesciunt ex eligendi velit sequi quod, incidunt amet doloribus in pariatur quasi dolorem quae nulla cumque temporibus deleniti similique. <br> </br> Quidem
-                                        rerum exercitationem soluta, aspernatur perferendis libero delectus rem. Fuga nisi ex fugiat ducimus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, impedit nulla. Assumenda aperiam maiores fugiat
+                                        impedit nulla. Assumenda aperiam maiores fugiat soluta veniam, nesciunt ex eligendi velit sequi quod, incidunt amet doloribus in pariatur quasi dolorem quae nulla cumque temporibus deleniti similique. <br/> Quidem
+                                        rerum exercitationem soluta, aspernatur perferendis libero delectus rem. <br></br>Fuga nisi ex fugiat ducimus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, impedit nulla. Assumenda aperiam maiores fugiat
                                         soluta veniam, nesciunt ex eligendi velit sequi quod, incidunt amet doloribus in pariatur quasi dolorem quae nulla cumque temporibus deleniti similique. Quidem rerum exercitationem soluta, aspernatur perferendis libero
                                         delectus rem. Fuga nisi ex fugiat ducimus?</p>
                                 </div>
@@ -29,7 +29,7 @@
                         <v-divider class="primary mx-5 "></v-divider>
                         <v-layout row wrap class="my-5 py-5">
                             <v-flex xs12 md4 class="mb-5 pb-5">
-                                <v-card hover color="accent lighten-4">
+                                <v-card hover color="card accent lighten-4">
                                     <v-card-text class="text-xs-center">
                                         <v-icon x-large class="accent--text mt-5">grade</v-icon>
                                     </v-card-text>
@@ -118,16 +118,19 @@
     </v-content>
 </template>
 <style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,400,700|Sacramento');
     .card {
         &__title {
             font-family: 'Sacramento', cursive !important;
-            font-size: 2.6em !important;
-            font-weight: bolder;
+            font-size: 2.8em !important;
+            font-weight: lighter;
+           
         }
         &__text {
             text-indent: 2em;
             font-size: 1.4em;
             font-weight: lighter;
+            font-family: 'Roboto', sans-serif !important
         }
     }
     h1 {
@@ -144,9 +147,14 @@
     span {
         color: #e6cf8b;
     }
+  
     .aboutme {
         margin-bottom: 3em;
-        align-content: center;
+        align-content:center;
+        justify-items: center;
+         margin: 0 auto;
+       
+      
         &__avatar {
             width: 33%;
             height: auto;
@@ -158,9 +166,13 @@
             background-blend-mode: screen;
         }
         &__text {
-            font-size: 1.5em;
+            font-family: 'Roboto', sans-serif !important;
+            font-size: 1.8em;
             font-weight: lighter;
-            text-indent: 4em;
+            text-indent: 3.5em;
+            line-height: 1.5;
+            width: 90%;
+            margin: 0 auto;
         }
     }
     .btn {

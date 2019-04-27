@@ -1,11 +1,17 @@
 <template>
-    <v-content>
-            <v-layout column wrap align-center class="my-5">
-                <v-flex xs12 sm4 class="my-3">
-                    <div class="text-xs-center">
-                        <h1 class="headline px-3 my-4">Contact</h1>
-                    </div>
-                </v-flex>
-           </v-layout>   
-    </v-content>
+    <div class="form">
+        <h1>contact</h1>
+    </div>
 </template>
+<script>
+    export default {
+        data() {
+            return {}
+        }
+    }
+</script>
+<style lang="scss">
+.form {
+    margin-top: 100px;
+}
+</style>

@@ -174,8 +174,7 @@
         perspective: 1500px;
         -moz-perspective: 1500px;
         position: relative;
-        height: 44em;
-      
+        height: 44em;  
         &__side {
             border-bottom: #e6cf8b solid 3px;
             box-shadow: 0 1.5rem 4rem rgba(black, .30);
